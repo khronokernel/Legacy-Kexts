@@ -3,6 +3,8 @@
 * [FAT kexts](#fat-kexts)
 * [32 Bit Kexts](#32-bit-kexts)
 
+Goal of this repo is to help preserve legacy OSX kexts as more and more sites remove old content. If there's any source code, original thread, prebuilt binaries, etc you'd like to add, feel free to make a PR.
+
 ## FAT Kexts
 Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 
@@ -25,9 +27,6 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 * [CPUi](/FAT/Zip/CPUi.kext.zip)
   * 10.5+
 
-* [AppleIntelPIIXATA](/FAT/Zip/AppleIntelPIIXATA.kext.zip)
-  * 10.4.7+
-
 * [VoodooTSCsync](/FAT/Zip/VoodooTSCSync.kext.zip)
   * 10.4+
 
@@ -46,3 +45,8 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 
 * [RealtekR1000](/32Bit-only/Zip/RealtekR1000.kext.zip)
   * 10.4+
+
+* [ACPIBatteryManager](/32Bit-only/Zip/AppleACPIBatteryManager.kext.zip)
+  * 10.4+
+  * [Source code](/32Bit-only/AppleACPIBatteryManager-Source-Code/)
+  * [Original Tread](https://www.insanelymac.com/forum/topic/114105-appleacpibatterymanager-for-tiger-and-leopard/)
