@@ -28,6 +28,9 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 * [AppleIntelPIIXATA](/FAT/Zip/AppleIntelPIIXATA.kext.zip)
   * 10.4.7+
 
+* [VoodooTSCsync](/FAT/Zip/VoodooTSCSync.kext.zip)
+  * 10.4+
+
 ## 32 Bit kexts
 
 * [VoodooBattery](/32Bit-only/Zip/VoodooBattery.kext.zip)
