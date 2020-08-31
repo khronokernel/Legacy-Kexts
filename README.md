@@ -6,40 +6,40 @@
 ## FAT Kexts
 Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 
-* [fakesmc]()
+* [FakeSMC](/FAT/Zip/fakesmc.kext.zip)
   * 10.4+
 
-* [VoodooHDA]()
+* [VoodooHDA](/FAT/Zip/VoodooHDA.kext.zip)
   * 10.4+
 
-* [VoodooPS2]()
+* [VoodooPS2](/FAT/Zip/VoodooPS2Controller.kext.zip)
   * Includes keyboard, trackpad and mouse
   * 10.4+
   
-* [NullCPUPowerManagement]()
+* [NullCPUPowerManagement](/FAT/Zip/NullCPUPowerManagement.kext.zip)
   * 10.4+
   
-* [AppleACPIPS2Nub]()
+* [AppleACPIPS2Nub](/FAT/Zip/AppleACPIPS2Nub.kext.zip)
   * 10.4+
   
-* [CPUi]()
+* [CPUi](/FAT/Zip/CPUi.kext.zip)
   * 10.5+
 
-* [AppleIntelPIIXATA]()
+* [AppleIntelPIIXATA](/FAT/Zip/AppleIntelPIIXATA.kext.zip)
   * 10.4.7+
 
 ## 32 Bit kexts
 
-* [VoodooBattery]()
+* [VoodooBattery](/32Bit-only/Zip/VoodooBattery.kext.zip)
   * Battery reporting
   * 10.4
 
-* [VoodooPowerMini]()
+* [VoodooPowerMini](/32Bit-only/Zip/VoodooPowerMini.kext.zip)
   * Intel Speed Step support
   * 10.4
   
-* [IOSDHCIBlockDevice]()
+* [IOSDHCIBlockDevice](/32Bit-only/Zip/IOSDHCIBlockDevice.kext.zip)
   * 10.4+
 
-* [RealtekR1000]()
+* [RealtekR1000](/32Bit-only/Zip/RealtekR1000.kext.zip)
   * 10.4+
