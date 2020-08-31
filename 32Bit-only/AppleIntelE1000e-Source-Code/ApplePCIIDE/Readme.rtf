@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg932\cocoartf1038\cocoasubrtf250
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;}
+\vieww12940\viewh11720\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs20 \cf0 \
+2009-11-27\
+\
+Supported PCI IDE/SATA cards.\
+\
+Don't connect master/slave drives. I never tested more than 1 drives per port.\
+\
+VIA 6421\
+Both of SATA and PATA work.\
+\
+SiliconImage 0680\
+Tested with IDE BIOS 3.4.0. With this revision, Linux grub doesn't boot.\
+As it seems that the BIOS does not initialize hardware completely, reboot may not work if your boot drive is connected to the \ul secondary\ulnone  channel. In the case, even hardware reset does not work. You have to shutdown and power on again to reboot.\
+To recognize connected drives, Chameleon 2.0 RC4 or later is required.\
+\
+SiliconImage 3512/3112\
+I experienced crash when disk sleep is enabled. So I disabled power state control. Sil3132 driver from the vendor does not support it anyway.\
+To boot, Chameleon 2.0 RC4 or later is required.\
+\
+SiliconImage 3114\
+Only the first 2 ports work as 3112.\
+\
+ITE 8211/8212\
+Only PIO mode is supported. UDMA mode always froze in my experiments.}

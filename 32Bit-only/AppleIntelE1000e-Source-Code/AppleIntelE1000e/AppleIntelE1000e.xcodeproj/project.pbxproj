@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D94FC60562CBF700B6AF17 /* AppleIntelE1000e.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* AppleIntelE1000e.h */; };
+		32D94FCA0562CBF700B6AF17 /* AppleIntelE1000e.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* AppleIntelE1000e.cpp */; settings = {ATTRIBUTES = (); }; };
+		4D0D81731179AD4B000A4C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167EFE841241C02AAC07 /* InfoPlist.strings */; };
+		4D2DD3D3149D9A4600699562 /* param.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DED0B1E10EB2A6300CF5CE1 /* param.c */; };
+		4D403D04136F81CE00ECF8EB /* 80003es2lan.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D403D02136F81CE00ECF8EB /* 80003es2lan.c */; };
+		4D403D05136F81CE00ECF8EB /* 80003es2lan.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D403D03136F81CE00ECF8EB /* 80003es2lan.h */; };
+		4D403D08136F839600ECF8EB /* 82571.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D403D07136F839600ECF8EB /* 82571.h */; };
+		4D403D0A136F848D00ECF8EB /* 82571.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D403D09136F848D00ECF8EB /* 82571.c */; };
+		4D403D0C136F850E00ECF8EB /* defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D403D0B136F850E00ECF8EB /* defines.h */; };
+		4D403D0E136F885200ECF8EB /* regs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D403D0D136F885200ECF8EB /* regs.h */; };
+		4D4C2EA4136F8C010066B0DF /* phy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4C2EA3136F8C010066B0DF /* phy.h */; };
+		4D97361E136F96F50020607A /* ich8lan.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D97361D136F96F50020607A /* ich8lan.c */; };
+		4D973621136F97580020607A /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D973620136F97580020607A /* mac.c */; };
+		4D973623136F98050020607A /* nvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D973622136F98050020607A /* nvm.c */; };
+		4D973625136F98720020607A /* phy.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D973624136F98720020607A /* phy.c */; };
+		4D973627136F98BF0020607A /* manage.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D973626136F98BF0020607A /* manage.c */; };
+		4D99528E136F8C54007D5749 /* manage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D99528D136F8C54007D5749 /* manage.h */; };
+		4D99BB9C10E4CFF000292443 /* e1000.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D99BB9110E4CFF000292443 /* e1000.h */; };
+		4D99BBA110E4D04A00292443 /* hw.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D99BBA010E4D04A00292443 /* hw.h */; };
+		4D99BBA310E4D08700292443 /* kcompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D99BBA210E4D08700292443 /* kcompat.h */; };
+		4D99C14310E50F3E00292443 /* e1000.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D99C14210E50F3E00292443 /* e1000.c */; };
+		4DD992AE136F89E700405DA1 /* mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD992AD136F89E700405DA1 /* mac.h */; };
+		4DD992B1136F8A4700405DA1 /* nvm.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD992B0136F8A4700405DA1 /* nvm.h */; };
+		4DE568AA136F8CB5002BDDA3 /* ich8lan.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE568A9136F8CB5002BDDA3 /* ich8lan.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1A224C3EFF42367911CA2CB7 /* AppleIntelE1000e.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleIntelE1000e.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* AppleIntelE1000e.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleIntelE1000e.cpp; sourceTree = "<group>"; };
+		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D94FD00562CBF700B6AF17 /* AppleIntelE1000e.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleIntelE1000e.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D00349F171A529C00EF3D67 /* ptp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ptp.c; sourceTree = "<group>"; };
+		4D403D02136F81CE00ECF8EB /* 80003es2lan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 80003es2lan.c; sourceTree = "<group>"; };
+		4D403D03136F81CE00ECF8EB /* 80003es2lan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 80003es2lan.h; sourceTree = "<group>"; };
+		4D403D07136F839600ECF8EB /* 82571.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 82571.h; sourceTree = "<group>"; };
+		4D403D09136F848D00ECF8EB /* 82571.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 82571.c; sourceTree = "<group>"; };
+		4D403D0B136F850E00ECF8EB /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		4D403D0D136F885200ECF8EB /* regs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regs.h; sourceTree = "<group>"; };
+		4D4C2EA3136F8C010066B0DF /* phy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phy.h; sourceTree = "<group>"; };
+		4D97361D136F96F50020607A /* ich8lan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ich8lan.c; sourceTree = "<group>"; };
+		4D973620136F97580020607A /* mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mac.c; sourceTree = "<group>"; };
+		4D973622136F98050020607A /* nvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nvm.c; sourceTree = "<group>"; };
+		4D973624136F98720020607A /* phy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = phy.c; sourceTree = "<group>"; };
+		4D973626136F98BF0020607A /* manage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = manage.c; sourceTree = "<group>"; };
+		4D99528D136F8C54007D5749 /* manage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manage.h; sourceTree = "<group>"; };
+		4D99BB9110E4CFF000292443 /* e1000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e1000.h; sourceTree = "<group>"; };
+		4D99BBA010E4D04A00292443 /* hw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hw.h; sourceTree = "<group>"; };
+		4D99BBA210E4D08700292443 /* kcompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kcompat.h; sourceTree = "<group>"; };
+		4D99C14210E50F3E00292443 /* e1000.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e1000.c; sourceTree = "<group>"; };
+		4DD992AD136F89E700405DA1 /* mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mac.h; sourceTree = "<group>"; };
+		4DD992B0136F8A4700405DA1 /* nvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nvm.h; sourceTree = "<group>"; };
+		4DE568A9136F8CB5002BDDA3 /* ich8lan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ich8lan.h; sourceTree = "<group>"; };
+		4DED0B1C10EB2A6300CF5CE1 /* kcompat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kcompat.c; sourceTree = "<group>"; };
+		4DED0B1D10EB2A6300CF5CE1 /* netdev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netdev.c; sourceTree = "<group>"; };
+		4DED0B1E10EB2A6300CF5CE1 /* param.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = param.c; sourceTree = "<group>"; };
+		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D94FCB0562CBF700B6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AppleIntelE1000e */ = {
+			isa = PBXGroup;
+			children = (
+				4D99BB9F10E4CFFB00292443 /* Header */,
+				247142CAFF3F8F9811CA285C /* Source */,
+				4DED0B1910EB2A4600CF5CE1 /* Unused */,
+				8DA8362C06AD9B9200E5AC22 /* Kernel.framework */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = AppleIntelE1000e;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FCF0562CBF700B6AF17 /* Info.plist */,
+				089C167EFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* AppleIntelE1000e.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4D973620136F97580020607A /* mac.c */,
+				4D973622136F98050020607A /* nvm.c */,
+				4D973624136F98720020607A /* phy.c */,
+				4D973626136F98BF0020607A /* manage.c */,
+				4D97361D136F96F50020607A /* ich8lan.c */,
+				4D403D02136F81CE00ECF8EB /* 80003es2lan.c */,
+				4D403D09136F848D00ECF8EB /* 82571.c */,
+				1A224C3EFF42367911CA2CB7 /* AppleIntelE1000e.h */,
+				1A224C3FFF42367911CA2CB7 /* AppleIntelE1000e.cpp */,
+				4D99C14210E50F3E00292443 /* e1000.c */,
+				4DED0B1E10EB2A6300CF5CE1 /* param.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4D99BB9F10E4CFFB00292443 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				4D99BBA210E4D08700292443 /* kcompat.h */,
+				4D403D0B136F850E00ECF8EB /* defines.h */,
+				4D99BBA010E4D04A00292443 /* hw.h */,
+				4D403D0D136F885200ECF8EB /* regs.h */,
+				4DD992AD136F89E700405DA1 /* mac.h */,
+				4DD992B0136F8A4700405DA1 /* nvm.h */,
+				4D4C2EA3136F8C010066B0DF /* phy.h */,
+				4D99528D136F8C54007D5749 /* manage.h */,
+				4D403D03136F81CE00ECF8EB /* 80003es2lan.h */,
+				4D403D07136F839600ECF8EB /* 82571.h */,
+				4DE568A9136F8CB5002BDDA3 /* ich8lan.h */,
+				4D99BB9110E4CFF000292443 /* e1000.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		4DED0B1910EB2A4600CF5CE1 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				4D00349F171A529C00EF3D67 /* ptp.c */,
+				4DED0B1C10EB2A6300CF5CE1 /* kcompat.c */,
+				4DED0B1D10EB2A6300CF5CE1 /* netdev.c */,
+			);
+			name = Unused;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D94FC50562CBF700B6AF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FC60562CBF700B6AF17 /* AppleIntelE1000e.h in Headers */,
+				4D99BB9C10E4CFF000292443 /* e1000.h in Headers */,
+				4D99BBA110E4D04A00292443 /* hw.h in Headers */,
+				4D99BBA310E4D08700292443 /* kcompat.h in Headers */,
+				4D403D05136F81CE00ECF8EB /* 80003es2lan.h in Headers */,
+				4D403D08136F839600ECF8EB /* 82571.h in Headers */,
+				4D403D0C136F850E00ECF8EB /* defines.h in Headers */,
+				4D403D0E136F885200ECF8EB /* regs.h in Headers */,
+				4DD992AE136F89E700405DA1 /* mac.h in Headers */,
+				4DD992B1136F8A4700405DA1 /* nvm.h in Headers */,
+				4D4C2EA4136F8C010066B0DF /* phy.h in Headers */,
+				4D99528E136F8C54007D5749 /* manage.h in Headers */,
+				4DE568AA136F8CB5002BDDA3 /* ich8lan.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32D94FC30562CBF700B6AF17 /* AppleIntelE1000e */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "AppleIntelE1000e" */;
+			buildPhases = (
+				32D94FC50562CBF700B6AF17 /* Headers */,
+				32D94FC70562CBF700B6AF17 /* Resources */,
+				32D94FC90562CBF700B6AF17 /* Sources */,
+				32D94FCB0562CBF700B6AF17 /* Frameworks */,
+				32D94FCC0562CBF700B6AF17 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleIntelE1000e;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = AppleIntelE1000e;
+			productReference = 32D94FD00562CBF700B6AF17 /* AppleIntelE1000e.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "AppleIntelE1000e" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AppleIntelE1000e */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* AppleIntelE1000e */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D94FC70562CBF700B6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0D81731179AD4B000A4C84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32D94FCC0562CBF700B6AF17 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FCA0562CBF700B6AF17 /* AppleIntelE1000e.cpp in Sources */,
+				4D99C14310E50F3E00292443 /* e1000.c in Sources */,
+				4D403D04136F81CE00ECF8EB /* 80003es2lan.c in Sources */,
+				4D403D0A136F848D00ECF8EB /* 82571.c in Sources */,
+				4D97361E136F96F50020607A /* ich8lan.c in Sources */,
+				4D973621136F97580020607A /* mac.c in Sources */,
+				4D973623136F98050020607A /* nvm.c in Sources */,
+				4D973625136F98720020607A /* phy.c in Sources */,
+				4D973627136F98BF0020607A /* manage.c in Sources */,
+				4D2DD3D3149D9A4600699562 /* param.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91DA08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.insanelymac.driver.AppleIntelE1000e;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = AppleIntelE1000e;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1DEB91DB08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.insanelymac.driver.AppleIntelE1000e;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = AppleIntelE1000e;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DEB91DE08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ONE_BYTE_BOOL = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		1DEB91DF08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ONE_BYTE_BOOL = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		4D8E46501179A84500CB04DF /* Release_Leo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ONE_BYTE_BOOL = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Release_Leo;
+		};
+		4D8E46511179A84500CB04DF /* Release_Leo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.insanelymac.driver.AppleIntelE1000e;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = AppleIntelE1000e;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release_Leo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "AppleIntelE1000e" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DA08733DB10010E9CD /* Debug */,
+				1DEB91DB08733DB10010E9CD /* Release */,
+				4D8E46511179A84500CB04DF /* Release_Leo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "AppleIntelE1000e" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DE08733DB10010E9CD /* Debug */,
+				1DEB91DF08733DB10010E9CD /* Release */,
+				4D8E46501179A84500CB04DF /* Release_Leo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

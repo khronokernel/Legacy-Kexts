@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.3, Copyright Apple Computer, Inc. 2004</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>VIA6421</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.ApplePCIIDE</string>
+			<key>Controller Name</key>
+			<string>VIA6421</string>
+			<key>IOClass</key>
+			<string>ApplePCIIDERoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x32491106</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Sil0680</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.ApplePCIIDE</string>
+			<key>Controller Name</key>
+			<string>Sil0680</string>
+			<key>IOClass</key>
+			<string>ApplePCIIDERoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x06801095</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Sil3x12</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.ApplePCIIDE</string>
+			<key>Controller Name</key>
+			<string>Sil3x12</string>
+			<key>IOClass</key>
+			<string>ApplePCIIDERoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x35121095 0x31121095 0x31141095</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>IT821x</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.ApplePCIIDE</string>
+			<key>Controller Name</key>
+			<string>IT821X</string>
+			<key>IOClass</key>
+			<string>ApplePCIIDERoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x82121283 0x82111283</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>PCI ATA Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.ApplePCIIDE</string>
+			<key>IOClass</key>
+			<string>ApplePCIIDEDriver</string>
+			<key>IOProviderClass</key>
+			<string>ApplePCIIDEChannel</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.kpi.mach</key>
+		<string>9.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.1</string>
+		<key>com.apple.iokit.IOATAFamily</key>
+		<string>2.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>

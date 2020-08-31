@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.2.3</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.3a</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Agere et1310</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0xed0011C1 0xed0111C1</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.5.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.7</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.10.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.10.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.10.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.10.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>

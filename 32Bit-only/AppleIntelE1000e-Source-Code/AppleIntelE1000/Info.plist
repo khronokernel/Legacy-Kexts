@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>8.0.35</string>
+	<key>CFBundleShortVersionString</key>
+	<string>8.0.35</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Intel 82540</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x100e8086 0x10158086 0x10168086 0x10178086 0x101e8086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel 82541</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x10768086 0x107c8086 0x10778086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel 82542</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x10008086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel 82543</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x10018086 0x10048086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel 82544</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x10088086 0x10098086 0x100c8086 0x100d8086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel 82545</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x100f8086 0x10118086 0x10268086 0x10278086 0x10288086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel 82546</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x10108086 0x10128086 0x101d8086 0x10798086 0x107a8086 0x107b8086 0x108a8086 0x10998086 0x10b58086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>Intel 82547</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insanelymac.driver.${PRODUCT_NAME}</string>
+			<key>IOClass</key>
+			<string>${PRODUCT_NAME}</string>
+			<key>IOPCIMatch</key>
+			<string>0x10198086 0x101a8086 0x10758086</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.5.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.7</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.10.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.10.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.10.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.10.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>

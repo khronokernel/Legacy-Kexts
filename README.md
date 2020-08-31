@@ -50,3 +50,9 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
   * 10.4+
   * [Source code](/32Bit-only/AppleACPIBatteryManager-Source-Code/)
   * [Original Tread](https://www.insanelymac.com/forum/topic/114105-appleacpibatterymanager-for-tiger-and-leopard/)
+
+* [AppleIntelE1000e](/32Bit-only/Zip/AppleIntelE1000e.kext.zip)
+  * 10.5+
+  * [Source code](/32Bit-only/AppleIntelE1000e-Source-Code/)
+  * [Original Repo](https://sourceforge.net/p/osx86drivers/)
+  * [Original Thread](https://www.insanelymac.com/forum/topic/205771-appleintele1000ekext-for-108107106105/)

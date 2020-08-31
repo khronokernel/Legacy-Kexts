@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D94FC60562CBF700B6AF17 /* ViaVelocity.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A224C3EFF42367911CA2CB7 /* ViaVelocity.h */; };
+		32D94FCA0562CBF700B6AF17 /* ViaVelocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A224C3FFF42367911CA2CB7 /* ViaVelocity.cpp */; settings = {ATTRIBUTES = (); }; };
+		4DE64AF91175710B00581512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167EFE841241C02AAC07 /* InfoPlist.strings */; };
+		4DE64B0D1175734000581512 /* velocity_cfg.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64AFE1175734000581512 /* velocity_cfg.h */; };
+		4DE64B0E1175734000581512 /* velocity_dbg.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64AFF1175734000581512 /* velocity_dbg.h */; };
+		4DE64B0F1175734000581512 /* velocity_desc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B001175734000581512 /* velocity_desc.h */; };
+		4DE64B101175734000581512 /* velocity_hw.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE64B011175734000581512 /* velocity_hw.c */; };
+		4DE64B111175734000581512 /* velocity_hw.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B021175734000581512 /* velocity_hw.h */; };
+		4DE64B121175734000581512 /* velocity_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B031175734000581512 /* velocity_mac.h */; };
+		4DE64B141175734000581512 /* velocity_mii.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B051175734000581512 /* velocity_mii.h */; };
+		4DE64B161175734000581512 /* velocity_proc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B071175734000581512 /* velocity_proc.h */; };
+		4DE64B171175734000581512 /* velocity_stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B081175734000581512 /* velocity_stats.h */; };
+		4DE64B181175734000581512 /* velocity_wol.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE64B091175734000581512 /* velocity_wol.c */; };
+		4DE64B191175734000581512 /* velocity_wol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B0A1175734000581512 /* velocity_wol.h */; };
+		4DE64B1A1175734000581512 /* velocity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B0B1175734000581512 /* velocity.h */; };
+		4DE64B1C1175738D00581512 /* osdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B1B1175738D00581512 /* osdep.h */; };
+		4DE64B2E11758AD800581512 /* kcompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE64B2D11758AD800581512 /* kcompat.h */; };
+		4DE64B3811758C4500581512 /* kcompat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE64B3711758C4500581512 /* kcompat.cpp */; };
+		4DE64B9A1175922100581512 /* ViaVelocity_mbuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE64B991175922100581512 /* ViaVelocity_mbuf.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1A224C3EFF42367911CA2CB7 /* ViaVelocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViaVelocity.h; sourceTree = "<group>"; };
+		1A224C3FFF42367911CA2CB7 /* ViaVelocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViaVelocity.cpp; sourceTree = "<group>"; };
+		32D94FCF0562CBF700B6AF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D94FD00562CBF700B6AF17 /* ViaVelocity.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViaVelocity.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE64AFE1175734000581512 /* velocity_cfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity_cfg.h; sourceTree = "<group>"; };
+		4DE64AFF1175734000581512 /* velocity_dbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity_dbg.h; sourceTree = "<group>"; };
+		4DE64B001175734000581512 /* velocity_desc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity_desc.h; sourceTree = "<group>"; };
+		4DE64B011175734000581512 /* velocity_hw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = velocity_hw.c; sourceTree = "<group>"; };
+		4DE64B021175734000581512 /* velocity_hw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity_hw.h; sourceTree = "<group>"; };
+		4DE64B031175734000581512 /* velocity_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity_mac.h; sourceTree = "<group>"; };
+		4DE64B041175734000581512 /* velocity_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = velocity_main.c; path = Linux/velocity_main.c; sourceTree = "<group>"; };
+		4DE64B051175734000581512 /* velocity_mii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity_mii.h; sourceTree = "<group>"; };
+		4DE64B061175734000581512 /* velocity_proc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = velocity_proc.c; path = Linux/velocity_proc.c; sourceTree = "<group>"; };
+		4DE64B071175734000581512 /* velocity_proc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = velocity_proc.h; path = Linux/velocity_proc.h; sourceTree = "<group>"; };
+		4DE64B081175734000581512 /* velocity_stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = velocity_stats.h; path = Linux/velocity_stats.h; sourceTree = "<group>"; };
+		4DE64B091175734000581512 /* velocity_wol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = velocity_wol.c; sourceTree = "<group>"; };
+		4DE64B0A1175734000581512 /* velocity_wol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity_wol.h; sourceTree = "<group>"; };
+		4DE64B0B1175734000581512 /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		4DE64B1B1175738D00581512 /* osdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osdep.h; sourceTree = "<group>"; };
+		4DE64B2D11758AD800581512 /* kcompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kcompat.h; sourceTree = "<group>"; };
+		4DE64B3711758C4500581512 /* kcompat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kcompat.cpp; sourceTree = "<group>"; };
+		4DE64B991175922100581512 /* ViaVelocity_mbuf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViaVelocity_mbuf.cpp; sourceTree = "<group>"; };
+		8DA8362C06AD9B9200E5AC22 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D94FCB0562CBF700B6AF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ViaVelocity */ = {
+			isa = PBXGroup;
+			children = (
+				4DE64AFC1175731E00581512 /* Linux */,
+				247142CAFF3F8F9811CA285C /* Source */,
+				8DA8362C06AD9B9200E5AC22 /* Kernel.framework */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = ViaVelocity;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FCF0562CBF700B6AF17 /* Info.plist */,
+				089C167EFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D94FD00562CBF700B6AF17 /* ViaVelocity.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A224C3EFF42367911CA2CB7 /* ViaVelocity.h */,
+				1A224C3FFF42367911CA2CB7 /* ViaVelocity.cpp */,
+				4DE64B1B1175738D00581512 /* osdep.h */,
+				4DE64B2D11758AD800581512 /* kcompat.h */,
+				4DE64B3711758C4500581512 /* kcompat.cpp */,
+				4DE64B991175922100581512 /* ViaVelocity_mbuf.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		4DBA66331176BDAE00B1659D /* unused */ = {
+			isa = PBXGroup;
+			children = (
+				4DE64B041175734000581512 /* velocity_main.c */,
+				4DE64B061175734000581512 /* velocity_proc.c */,
+				4DE64B071175734000581512 /* velocity_proc.h */,
+				4DE64B081175734000581512 /* velocity_stats.h */,
+			);
+			name = unused;
+			sourceTree = "<group>";
+		};
+		4DE64AFC1175731E00581512 /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				4DBA66331176BDAE00B1659D /* unused */,
+				4DE64AFE1175734000581512 /* velocity_cfg.h */,
+				4DE64AFF1175734000581512 /* velocity_dbg.h */,
+				4DE64B001175734000581512 /* velocity_desc.h */,
+				4DE64B021175734000581512 /* velocity_hw.h */,
+				4DE64B031175734000581512 /* velocity_mac.h */,
+				4DE64B051175734000581512 /* velocity_mii.h */,
+				4DE64B0A1175734000581512 /* velocity_wol.h */,
+				4DE64B0B1175734000581512 /* velocity.h */,
+				4DE64B011175734000581512 /* velocity_hw.c */,
+				4DE64B091175734000581512 /* velocity_wol.c */,
+			);
+			name = Linux;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D94FC50562CBF700B6AF17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FC60562CBF700B6AF17 /* ViaVelocity.h in Headers */,
+				4DE64B0D1175734000581512 /* velocity_cfg.h in Headers */,
+				4DE64B0E1175734000581512 /* velocity_dbg.h in Headers */,
+				4DE64B0F1175734000581512 /* velocity_desc.h in Headers */,
+				4DE64B111175734000581512 /* velocity_hw.h in Headers */,
+				4DE64B121175734000581512 /* velocity_mac.h in Headers */,
+				4DE64B141175734000581512 /* velocity_mii.h in Headers */,
+				4DE64B161175734000581512 /* velocity_proc.h in Headers */,
+				4DE64B171175734000581512 /* velocity_stats.h in Headers */,
+				4DE64B191175734000581512 /* velocity_wol.h in Headers */,
+				4DE64B1A1175734000581512 /* velocity.h in Headers */,
+				4DE64B1C1175738D00581512 /* osdep.h in Headers */,
+				4DE64B2E11758AD800581512 /* kcompat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32D94FC30562CBF700B6AF17 /* ViaVelocity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "ViaVelocity" */;
+			buildPhases = (
+				32D94FC50562CBF700B6AF17 /* Headers */,
+				32D94FC70562CBF700B6AF17 /* Resources */,
+				32D94FC90562CBF700B6AF17 /* Sources */,
+				32D94FCB0562CBF700B6AF17 /* Frameworks */,
+				32D94FCC0562CBF700B6AF17 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViaVelocity;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = ViaVelocity;
+			productReference = 32D94FD00562CBF700B6AF17 /* ViaVelocity.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "ViaVelocity" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* ViaVelocity */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D94FC30562CBF700B6AF17 /* ViaVelocity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D94FC70562CBF700B6AF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE64AF91175710B00581512 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32D94FCC0562CBF700B6AF17 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D94FC90562CBF700B6AF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D94FCA0562CBF700B6AF17 /* ViaVelocity.cpp in Sources */,
+				4DE64B101175734000581512 /* velocity_hw.c in Sources */,
+				4DE64B181175734000581512 /* velocity_wol.c in Sources */,
+				4DE64B3811758C4500581512 /* kcompat.cpp in Sources */,
+				4DE64B9A1175922100581512 /* ViaVelocity_mbuf.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91DA08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.ViaVelocity;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = ViaVelocity;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1DEB91DB08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.ViaVelocity;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = ViaVelocity;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DEB91DE08733DB10010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91DF08733DB10010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4D22B0B41179806A00A1AB49 /* Release_Leo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release_Leo;
+		};
+		4D22B0B51179806A00A1AB49 /* Release_Leo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.ViaVelocity;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = ViaVelocity;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release_Leo;
+		};
+		4D9DD7AA117729C700C78C0C /* Debug_Leo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug_Leo;
+		};
+		4D9DD7AB117729C700C78C0C /* Debug_Leo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.yourcompany.driver.ViaVelocity;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = ViaVelocity;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug_Leo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91D908733DB10010E9CD /* Build configuration list for PBXNativeTarget "ViaVelocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DA08733DB10010E9CD /* Debug */,
+				4D9DD7AB117729C700C78C0C /* Debug_Leo */,
+				1DEB91DB08733DB10010E9CD /* Release */,
+				4D22B0B51179806A00A1AB49 /* Release_Leo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91DD08733DB10010E9CD /* Build configuration list for PBXProject "ViaVelocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91DE08733DB10010E9CD /* Debug */,
+				4D9DD7AA117729C700C78C0C /* Debug_Leo */,
+				1DEB91DF08733DB10010E9CD /* Release */,
+				4D22B0B41179806A00A1AB49 /* Release_Leo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
