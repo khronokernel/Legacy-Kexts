@@ -6,10 +6,11 @@
 Goal of this repo is to help preserve legacy OSX kexts as more and more sites remove old content. If there's any source code, original thread, prebuilt binaries, etc you'd like to add, feel free to make a PR.
 
 ## FAT Kexts
+
 Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 
 * [FakeSMC](/FAT/Zip/fakesmc.kext.zip)
-  * 10.4+
+  * 10.5+
 
 * [VoodooHDA](/FAT/Zip/VoodooHDA.kext.zip)
   * 10.4+
@@ -31,6 +32,9 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
   * 10.4+
 
 ## 32 Bit kexts
+
+* [FakeSMC-32](/32Bit-only/Zip/FakeSMC-32.zip)
+  * 10.4+
 
 * [VoodooBattery](/32Bit-only/Zip/VoodooBattery.kext.zip)
   * Battery reporting
