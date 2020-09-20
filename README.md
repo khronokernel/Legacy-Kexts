@@ -33,7 +33,7 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 
 ## 32 Bit kexts
 
-* [FakeSMC-32](/32Bit-only/Zip/FakeSMC-32.zip)
+* [FakeSMC-32](/32Bit-only/Zip/FakeSMC-32.kext.zip)
   * 10.4+
 
 * [VoodooBattery](/32Bit-only/Zip/VoodooBattery.kext.zip)
