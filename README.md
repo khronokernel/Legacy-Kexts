@@ -28,8 +28,8 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 | Kext | OS Support | Comments |
 | :--- | :--- | :--- |
 | [FakeSMC-32](/32Bit-only/Zip/FakeSMC-32.kext.zip) | 10.4+ | SMC Emulator |
-| [VoodooBattery](/32Bit-only/Zip/VoodooBattery.kext.zip) | 10.4 | Battery Reporting |
-| [VoodooPowerMini](/32Bit-only/Zip/VoodooPowerMini.kext.zip) | 10.4 | Intel Speed Step support |
+| [VoodooBattery](/32Bit-only/Zip/VoodooBattery.kext.zip) | 10.4+ | Battery Reporting |
+| [VoodooPowerMini](/32Bit-only/Zip/VoodooPowerMini.kext.zip) | 10.4+ | Intel Speed Step support |
 | [IOSDHCIBlockDevice](/32Bit-only/Zip/IOSDHCIBlockDevice.kext.zip) | 10.4+ | SD Reader support |
 | [ACPIBatteryManager](/32Bit-only/Zip/AppleACPIBatteryManager.kext.zip) | 10.4+ | Battery Reporting, [Source code](/32Bit-only/AppleACPIBatteryManager-Source-Code/), [Original Tread](https://www.insanelymac.com/forum/topic/114105-appleacpibatterymanager-for-tiger-and-leopard/) |
 | [RealtekR1000](/32Bit-only/Zip/RealtekR1000.kext.zip) | 10.4+ | Ethernet |
