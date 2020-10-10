@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nawcom.plist.BroadcomWiFiInjector</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>BroadcomWiFiInjector</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Broadcom 802.11 PCI</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AirPortBrcm43xx</string>
+			<key>IOClass</key>
+			<string>AirPort_Brcm43xx</string>
+			<key>IOMatchCategory</key>
+			<string>IODefaultMatchCategory</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>pci106b,4e</string>
+				<string>pci14e4,4311</string>
+				<string>pci14e4,4312</string>
+				<string>pci14e4,4313</string>
+				<string>pci14e4,4318</string>
+				<string>pci14e4,4314</string>
+				<string>pci14e4,4315</string>
+				<string>pc14e4,4316</string>
+				<string>pci14e4,4317</string>
+				<string>pc14e4,4318</string>
+				<string>pci14e4,431a</string>
+				<string>pci14e4,4319</string>
+				<string>pci14e4,431a</string>
+				<string>pci14e4,4320</string>
+				<string>pci14e4,4321</string>
+				<string>pci14e4,4322</string>
+				<string>pci14e4,4323</string>
+				<string>pci14e4,4324</string>
+				<string>pci14e4,4325</string>
+				<string>pci14e4,4328</string>
+				<string>pci14e4,432b</string>
+				<string>pci14e4,432c</string>
+				<string>pci14e4,432d</string>
+				<string>pci14e4,4357</string>	
+			</array>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>TruePowerOff</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
