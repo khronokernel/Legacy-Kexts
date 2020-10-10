@@ -18,7 +18,7 @@ Includes both 32 and 64 bit slices allowing to be used with 10.4-10.7
 | [VoodooPS2](/FAT/Zip/VoodooPS2Controller.kext.zip) | 10.4+ | PS2 Support |
 | [NullCPUPowerManagement](/FAT/Zip/NullCPUPowerManagement.kext.zip) | 10.4+ | Disables AppleIntelCPUPowerManagement |
 | [AppleACPIPS2Nub](/FAT/Zip/AppleACPIPS2Nub.kext.zip) | 10.4+ | PS2 Nub |
-| [CPUi](/FAT/Zip/CPUi.kext.zip) | 10.5+ | Unknown |
+| [CPUi](/FAT/Zip/CPUi.kext.zip) | 10.5+ | Intel Speed Step support(similar to VoodooPowerMini) |
 | [VoodooTSCsync](/FAT/Zip/VoodooTSCSync.kext.zip) | 10.4+ | Syncs TSC |
 | [EvOreboot](/FAT/Zip/EvOreboot.kext.zip) | 10.4+ | Fixes shutdown and reboot issues |
 | [NVEnabler](/FAT/Zip/NVEnabler-64.kext.zip) | 10.4+ | Nvidia GPU Initialization |
