@@ -51,5 +51,5 @@ Simply injector kexts, not directly OS dependant however still nice to include
 | [BroadcomWiFiInjector](/Injectors/Zip/BroadcomWiFiInjector.kext.zip) | Expand PCI IDs for Broadcom |
 | [ATAPortInjector](/Injectors/Zip/ATAPortInjector.kext.zip) | Expands PCI IDs for ATA Controllers |
 | [AHCIPortInjector](/Injectors/Zip/AHCIPortInjector.kext.zip) | Expands PCI IDs for legacy AHCI Controllers |
-| [SATA-Unsupported](/Injectors/Zip/SATA-Unsupported.kext.zip) | Expands PCI IDs for newer AHCI Controllers, [Source](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext) |
+| [SATA-unsupported](/Injectors/Zip/SATA-unsupported.kext.zip) | Expands PCI IDs for newer AHCI Controllers, [Source](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext) |
 
