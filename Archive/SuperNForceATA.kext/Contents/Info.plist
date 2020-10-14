@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SuperNForceATA</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.4, Copyright Domenico 'MeDevil' Colella. 2007, Copyright AnV Software 2009</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nvidia.driver.SuperNForceATA</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Apple NVIDIA nForce Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.4</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.4</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>NForce ATA Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.nvidia.driver.SuperNForceATA</string>
+			<key>IOClass</key>
+			<string>SuperNForceATA</string>
+			<key>IOProviderClass</key>
+			<string>SuperNForceATAChannel</string>
+		</dict>
+		<key>NForce PATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.nvidia.driver.SuperNForceATA</string>
+			<key>Hardware Name</key>
+			<string>NForce PATA</string>
+			<key>IOClass</key>
+			<string>SuperNForceATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x01bc10de 0x006510de 0x008510de 0x00d510de 0x00e510de 0x003510de 0x005310de 0x026510de 0x036e10de 0x03ec10de 0x044810de</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Serial ATA</key>
+			<false/>
+		</dict>
+		<key>NForce SATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.nvidia.driver.SuperNForceATA</string>
+			<key>Hardware Name</key>
+			<string>NForce SATA</string>
+			<key>IOClass</key>
+			<string>SuperNForceATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x008e10de 0x00e310de 0x00ee10de 0x003610de 0x003e10de 0x005410de 0x005510de 0x026610de 0x026710de 0x037e10de 0x037f10de 0x03e710de 0x03f610de 0x03f710de 0x045c10de 0x045d10de 0x045e10de 0x045f10de</string>
+			<key>IOProbeScore</key>
+			<string>1000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Serial ATA</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.0.0b1</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOATAFamily</key>
+		<string>1.5.0d1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.1.0</string>
+		<key>com.apple.kernel.iokit</key>
+               	<string>9.0.0</string> 
+		<key>com.apple.kpi.libkern</key>
+                <string>9.0.0</string>
+                <key>com.apple.kpi.mach</key>
+		<string>9.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>

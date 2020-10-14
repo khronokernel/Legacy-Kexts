@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleVIAATA</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.2, Copyright Apple Computer, Inc. 2004</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleVIAATA</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Apple VIA ATA Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.2</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>VIA ATA Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleVIAATA</string>
+			<key>IOClass</key>
+			<string>AppleVIAATADriver</string>
+			<key>IOProviderClass</key>
+			<string>AppleVIAATAChannel</string>
+		</dict>
+		<key>VIA PATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleVIAATA</string>
+			<key>Hardware Name</key>
+			<string>82C571</string>
+			<key>IOClass</key>
+			<string>AppleVIAATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x05711106 0x610111AB</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>ISA Bridge Matching</key>
+			<dict>
+				<key>IOPCIClassMatch</key>
+				<string>0x06010000&amp;0xffff0000</string>
+				<key>IOProviderClass</key>
+				<string>IOPCIDevice</string>
+			</dict>
+			<key>Serial ATA</key>
+			<false/>
+		</dict>
+		<key>VIA SATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleVIAATA</string>
+			<key>Hardware Name</key>
+			<string>8237 SATA</string>
+			<key>IOClass</key>
+			<string>AppleVIAATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x528810B9 0x528910B9 0x528710B9 0x31491106 0x00e310de 0x00ee10de 0x55131039 0x09631039 0x10B95229 0x522910B9</string>
+			<key>IOProbeScore</key>
+			<string>1000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Serial ATA</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOATAFamily</key>
+		<string>1.6.1f3</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Local-Root</string>
+</dict>
+</plist>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>NVinjectGo</string>
+	<key>CFBundleGetInfoString</key>
+	<string>NVinjectGo 0.2.0, Copyright 2007 nvinject.free.fr</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.NVinjectGo</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NVinjectGo</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.2.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>NVinjectGo</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.NVinjectGo</string>
+			<key>IOClass</key>
+			<string>com_NVinjectGo</string>
+			<key>IOMatchCategory</key>
+			<string>IOFramebuffer</string>
+			<key>IONameMatch</key>
+			<string>display</string>
+			<key>IOPCIMatch</key>
+			<string>0x000010de&amp;0x0000ffff</string>
+			<key>IOProbeScore</key>
+			<integer>60000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>entriesToAdd</key>
+			<dict>
+				<key>@0,compatible</key>
+				<string>NVDA,NVMac</string>
+				<key>@0,device_type</key>
+				<string>display</string>
+				<key>@0,name</key>
+				<string>NVDA,Display-A</string>
+				<key>@1,compatible</key>
+				<string>NVDA,NVMac</string>
+				<key>@1,device_type</key>
+				<string>display</string>
+				<key>@1,display-type</key>
+				<string>LCD</string>
+				<key>@1,name</key>
+				<string>NVDA,Display-B</string>
+				<key>NVCAP</key>
+				<data>
+				BAAAAAAAAwAMAAAAAAAABwAAAAA=
+				</data>
+				<key>device_type</key>
+				<string>NVDA,GeForce</string>
+				<key>model</key>
+				<string>Graphics by NVIDIA</string>
+				<key>name</key>
+				<string>NVDA,Parent</string>
+				<key>rom-revision</key>
+				<string>NVinjectGo 0.2.0</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kernel.iokit</key>
+		<string>6.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Safe Boot</string>
+</dict>
+</plist>

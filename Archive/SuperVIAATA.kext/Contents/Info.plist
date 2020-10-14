@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SuperVIAATA</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0.2, Made by c0rk007hck based on VIAATA</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.c0rk007hck.SuperVIAATA</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Super VIA ATA Driver</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.2</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>VIA ATA Driver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.c0rk007hck.SuperVIAATA</string>
+			<key>IOClass</key>
+			<string>SuperVIAATADriver</string>
+			<key>IOProviderClass</key>
+			<string>SuperVIAATAChannel</string>
+		</dict>
+		<key>VIA PATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.c0rk007hck.SuperVIAATA</string>
+			<key>Hardware Name</key>
+			<string>82C571</string>
+			<key>IOClass</key>
+			<string>SuperVIAATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x05711106 0x610111ab 0x612111ab</string>
+			<key>IOProbeScore</key>
+			<integer>1000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>ISA Bridge Matching</key>
+			<dict>
+				<key>IOPCIClassMatch</key>
+				<string>0x06010000&amp;0xffff0000</string>
+				<key>IOProviderClass</key>
+				<string>IOPCIDevice</string>
+			</dict>
+			<key>Serial ATA</key>
+			<false/>
+		</dict>
+		<key>VIA SATA Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.c0rk007hck.SuperVIAATA</string>
+			<key>Hardware Name</key>
+			<string>8237 SATA</string>
+			<key>IOClass</key>
+			<string>SuperVIAATARoot</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x43851002 0x43801002 0x43791002 0x43761002 0x528810b9 0x31491106 0x35121095 0x2360197b 0x2361197b 0x2363197b 0x2365197b 0x2366197b 0x28258086 0x28208086 0x522910b9 0x528910b9 0x05911106 0x55131039 0x43721002 0x528810b9 0x437a1002 0x43821002 0x437a1002 0x21821019 0x43801019 0x43901002 0x43911002 0x43951002 0x436e1002 0x43941002 0x01801039 0x01821039 0x11831039 0x01831039 0x036e10de 0x00e310de  0x005410de 0x005510de 0x00ee10de</string>
+			<key>IOProbeScore</key>
+			<string>2000</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Serial ATA</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOATAFamily</key>
+		<string>1.5.0d1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.1.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.mach</key>
+		<string>9.0.0</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
